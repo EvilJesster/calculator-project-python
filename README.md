@@ -1,7 +1,5 @@
 # Group Project: Command Line Calculator
 
-[![Run on Repl.it](https://repl.it/badge/github/upperlinecode/calculator-project-python)](https://repl.it/github/upperlinecode/calculator-project-python)
-
 ## The Goal
 
 Today, we're going to build a program that uses a Command Line Interface (CLI). That means that the user will interact with it from the command line, just like you do. Here's what it might look like:
