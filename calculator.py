@@ -14,6 +14,8 @@ elif choice == 'divide':
     print(definitions.divide())
 elif choice == 'simple':
     print(definitions.simple())
+elif choice == 'prime':
+    print(definitions.prime_number())
 
 
 

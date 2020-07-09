@@ -7,7 +7,9 @@ def get_numbers():
     global num1, num2
     num1 = float(input("What is the first number? "))
     num2 = float(input("What is the second number? "))
-
+def singleinput():
+    global num1
+    num1 = int((input('single input here plox')))
 
 def add():
     global num1, num2
@@ -48,19 +50,30 @@ def simple():
 #convert hex binary and decimal
 #quadratic formula
 #all prime numbers from 0  to n
-def prime_number(n):
-    ouput = [] 
+def prime_number():
+    global num1
+    singleinput()
+    n = num1
+    output = [] 
     for i in range(n):
-        output.append(True)
-    
-    holder = 2
-    
-    while holder < x^(1/2): 
-        holder+=
+        output.append(True)   
+    for i in range(2, math.floor(n**(1/2))):
+        if(output[i]):
+            otherhold = 0
+            while(((i **2 ) + (i * otherhold))< n):
+                j = i**2
+                j = j + i * otherhold
+                output[j] = False
+                otherhold += 1
+    realoutput = []
+    for idx, i in enumerate(output):
+        if(i):
+            realoutput.append(idx)
+    return(realoutput)
+
 
     
     
-        
 
 
 #nearest plane to you currently in the air
