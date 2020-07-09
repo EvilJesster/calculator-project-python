@@ -51,9 +51,16 @@ def simple():
 def prime_number(n):
     ouput = [] 
     for i in range(n):
-        output.append(i)
+        output.append(True)
+    
     holder = 2
     
-    while (y) < x^(1/2): 
+    while holder < x^(1/2): 
+        holder+=
+
+    
+    
+        
+
 
 #nearest plane to you currently in the air
