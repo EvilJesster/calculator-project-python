@@ -1,42 +1,44 @@
 import math
 # Feel free to code your definitions here in order to separate your concerns.
-num1 = 0
-num2 = 0
+
+nums = []
 
 def get_numbers():
-    global num1, num2
-    num1 = float(input("What is the first number? "))
-    num2 = float(input("What is the second number? "))
+    global nums
+    nums.append(float(input("What is the first number? ")))
+    nums.append(float(input("What is the second number? ")))
+
+    
 def singleinput():
-    global num1
-    num1 = int((input('single input here plox')))
+    global nums
+    nums.append((float(input('single input here plox'))))
 
 def add():
-    global num1, num2
+    global nums
     get_numbers()
-    sum = num1 + num2
-    print(str(num1) + " + " + str(num2) + " = " + str(sum))
+    sum = nums[0] + nums[1]
+    print(str(nums[0]) + " + " + str(nums[1]) + " = " + str(sum))
 
 
 def subtract():
-    global num1, num2
+    global nums
     get_numbers()
-    sum = num1 - num2
-    return(str(num1) + " - "+ str(num2) + " = " + str(sum))
+    sum = nums[0] - nums[1]
+    return(str(nums[0]) + " - "+ str(nums[1]) + " = " + str(sum))
 
 def multiply():
-    global num1, num2
+    global nums
     get_numbers()
-    sum = num1 * num2
-    return(str(num1) + " * "+ str(num2) + " = " + str(sum))
+    sum = nums[0] * nums[1]
+    return(str(nums[0]) + " * "+ str(nums[1]) + " = " + str(sum))
 
 def divide():
-    global num1, num2
+    global nums
     get_numbers()
-    if(num1 == 0 or num2 == 0):
+    if(nums[0] == 0 or nums[1] == 0):
         return("No singularities please thank you")
-    sum = num1 / num2
-    return(str(num1) + " / "+ str(num2) + " = " + str(sum))
+    sum = nums[0] / nums[1]
+    return(str(nums[0]) + " / "+ str(nums[1]) + " = " + str(sum))
 
 def simple():
     runthis = input('input math normally, for ex 4 + 4')
@@ -45,15 +47,19 @@ def simple():
 #average
 #remainder 
 #distance between points
+def twopoint():
+    global nums
+    get_numbers()
+    sum = math.sqrt()
 #power
 #convert between decimal fraction 
 #convert hex binary and decimal
 #quadratic formula
 #all prime numbers from 0  to n
 def prime_number():
-    global num1
+    global nums
     singleinput()
-    n = num1
+    n = int(nums[0])
     output = [] 
     for i in range(n):
         output.append(True)   
