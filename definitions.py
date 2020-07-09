@@ -38,3 +38,13 @@ def divide():
 def simple():
     runthis = input('input math normally, for ex 4 + 4')
     return(eval(runthis))
+
+#average
+#remainder 
+#distance between points
+#power
+#convert between decimal fraction 
+#convert hex binary and decimal
+#quadratic formula
+#all prime numbers from 0  to n
+#nearest plane to you currently in the air
