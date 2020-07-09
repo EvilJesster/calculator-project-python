@@ -1,5 +1,3 @@
-
-
 # Feel free to code your definitions here in order to separate your concerns.
 num1 = 0
 num2 = 0
@@ -15,7 +13,6 @@ def add():
     get_numbers()
     sum = num1 + num2
     print(str(num1) + " + " + str(num2) + " = " + str(sum))
-
 
 
 def subtract():
