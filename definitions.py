@@ -3,10 +3,11 @@ import math
 
 nums = []
 
-def get_numbers():
+def get_numbers(n = 2):
     global nums
-    nums.append(float(input("What is the first number? ")))
-    nums.append(float(input("What is the second number? ")))
+    for i in range(n):
+        nums.append(float(input("What is the " + str(i + 1) +" number?")))
+    
 
     
 def singleinput():
@@ -49,8 +50,11 @@ def simple():
 #distance between points
 def twopoint():
     global nums
-    get_numbers()
-    sum = math.sqrt()
+    print('enter x1 then y1 then x2 then y2')
+    get_numbers(4)
+    sum = math.sqrt(((nums[2] - nums[0] ) ** 2 ) + ((nums[3] - nums[1] ) **2 )
+        )
+    return(sum)
 #power
 #convert between decimal fraction 
 #convert hex binary and decimal

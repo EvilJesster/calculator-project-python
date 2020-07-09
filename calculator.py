@@ -16,6 +16,7 @@ elif choice == 'simple':
     print(definitions.simple())
 elif choice == 'prime':
     print(definitions.prime_number())
-
+elif choice == "points":
+    print(definitions.twopoint())
 
 
