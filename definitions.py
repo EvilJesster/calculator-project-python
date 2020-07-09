@@ -45,8 +45,7 @@ def simple():
     runthis = input('input math normally, for ex 4 + 4')
     return(eval(runthis))
 
-#average
-#remainder 
+
 #distance between points
 def twopoint():
     global nums
@@ -55,10 +54,7 @@ def twopoint():
     sum = math.sqrt(((nums[2] - nums[0] ) ** 2 ) + ((nums[3] - nums[1] ) **2 )
         )
     return(sum)
-#power
-#convert between decimal fraction 
-#convert hex binary and decimal
-#quadratic formula
+
 #all prime numbers from 0  to n
 def prime_number():
     global nums
