@@ -1,3 +1,4 @@
+import math
 # Feel free to code your definitions here in order to separate your concerns.
 num1 = 0
 num2 = 0
@@ -47,4 +48,12 @@ def simple():
 #convert hex binary and decimal
 #quadratic formula
 #all prime numbers from 0  to n
+def prime_number(n):
+    ouput = [] 
+    for i in range(n):
+        output.append(i)
+    holder = 2
+    
+    while (y) < x^(1/2): 
+
 #nearest plane to you currently in the air
